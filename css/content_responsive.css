@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/*공통*/
+@media screen and (max-width:830px){
+    .inner{margin:0 50px}
+ }
+ @media screen and (max-width:667px){
+    .inner{margin:0 35px}
+ }
+ @media screen and (max-width:430px){
+    .inner{margin:0 20px}
+ }
+
+@media screen and (max-width:740px){
+    #login.inner{width:90% !important;}
+ }
+
+ /****************************/
+ /****************************/
+ /****************************/
+ /*login*/
+
+ /*login_logo*/
+ @media screen and (max-width:480px){
+    .login_logo span img{width:120px;}
+}
+@media screen and (max-width:360px){
+    .login_logo span img{width:110px;}
+}
+
+ /*user*/
+ @media screen and (max-width:480px){
+    .user input[type="text"]{height:40px; font-size:14px !important;} 
+    .user input::placeholder{font-size:14px; color:#ccc !important;}
+}
+
+ /*password*/
+ @media screen and (max-width:480px){
+    .password input[type="password"]{border-radius:5px; border:1px solid #ccc; height:40px; font-size:14px !important;}
+    .password input::placeholder{font-size:14px; color:#ccc !important;}
+}
+
+/*check*/
+@media screen and (max-width:480px){
+    .check > div{font-size:12px;}
+    .check input[type="checkbox"] + label:before{
+        width:12px;
+        height:12px;
+        border-radius:3px;
+        margin:0 5px -2px 0;
+    }
+    .check input[type="checkbox"] + label:after{
+        content:"✓";
+        font-size:15px;
+        left:2px;
+        bottom:-1px;
+    }
+    .check div:last-child a{font-size:12px;}
+}
+
+@media screen and (max-width:360px){
+    .check{font-size:0; margin-bottom:30px;}
+    .check div:last-child{float:left; padding:5px 0;}
+    .check div:last-child a{font-size:12px;}
+}
+
+/*login_sns*/
+@media screen and (max-width:480px){
+    .login_sns div{width:100%; height:40px; background:#bb9251; border-radius:5px; line-height:40px; font-size:14px;}
+}
+
+/*login_membership*/
+@media screen and (max-width:580px){
+    .login_membership h2{font-size:18px;}
+    .login_membership > div > div img{width:40px;}
+    .login_membership > div > div h4{font-size:12px}
+    .login_membership > div > div p{font-size:10px;}
+}
+
+@media screen and (max-width:480px){
+    .login_membership > div > div{width:100px;}
+}
+
+@media screen and (max-width:430px){
+    .login_membership > div > div{width:180px;}
+    .login_membership > div > div:nth-child(1),
+    .login_membership > div > div:nth-child(2){margin-bottom:15px;}
+}
+
+@media screen and (max-width:395px){
+    .login_membership > div > div{width:130px;}
+}
+
+ /****************************/
+ /****************************/
+ /****************************/
+ /*menu*/
+
+ /*best_tit*/
+ @media screen and (max-width:667px){
+    .best_tit span{left:35px; font-size:20px;}
+    .best_tit h2{font-size:20px;}
+}
+
+@media screen and (max-width:430px){
+    .best_tit span{left:20px;}
+}
+
+@media screen and (max-width:360px){
+    .best_tit span{font-size:18px;}
+    .best_tit h2{font-size:18px;}
+}
+
+/*list_type*/
+@media screen and (max-width:667px){
+    .list_type{margin:0 35px;}
+}
+
+@media screen and (max-width:430px){
+    .list_type div{width:30px; min-width:30px; height:30px; line-height:25px;}
+    .list_type div img{width:70%;}
+    .list_type div:first-child p{font-size:12px;}
+    .list_type{margin:0 20px;}
+}
+
+/*menu_best_slide*/
+@media screen and (max-width:667px){
+    .menu_best_slide .slick-slide{margin:0 35px; margin-bottom:15px;}
+}
+
+@media screen and (max-width:580px){
+    .menu_best_slide .items .best__slide_content{height:160px;}
+    .menu_best_slide .items .best__slide_content div:last-child{margin-left:20px;}
+    .menu_best_slide .items .best__slide_content div > img{height:120px;}
+    .menu_best_slide .items .best__slide_content div h2{font-size:14px;}
+    .menu_best_slide .items .best__slide_content div h3{font-size:12px;}
+    .menu_best_slide .items .best__slide_content div p{font-size:12px;}
+    .menu_best_slide .items .best__slide_content div ul li{font-size:12px;}
+    .menu_best_slide .items .best__slide_content div ul li img{width:12px;}
+}
+
+@media screen and (max-width:430px){
+    .menu_best_slide .slick-slide{margin:0 20px; margin-bottom:15px;}
+    .menu_best_slide .items .best__slide_content{height:140px;}
+    .menu_best_slide .items .best__slide_content div{margin-left:15px;}
+    .menu_best_slide .items .best__slide_content div:last-child{margin-left:15px;}
+    .menu_best_slide .items .best__slide_content div > img{height:110px;}
+}
+
+@media screen and (max-width:360px){
+    .menu_best_slide .items .best__slide_content div h2{font-size:12px;}
+    .menu_best_slide .items .best__slide_content div h3{font-size:10px;}
+    .menu_best_slide .items .best__slide_content div p{font-size:10px;}
+    .menu_best_slide .items .best__slide_content div ul li{font-size:10px;}
+    .menu_best_slide .items .best__slide_content div ul li img{width:10px;}
+}
+
+/*menu_list_content*/
+@media screen and (max-width:768px){
+    .menu_list_content div{width:320px; height:440px;}
+    .menu_list_content div img{width:280px; margin:20px 0 0 20px;}
+    .menu_list_content div h2{font-size:14px; margin:20px 0 5px 20px;}
+    .menu_list_content div h3{font-size:14px; margin:0 0 5px 20px; line-height:16px;}
+    .menu_list_content div p{font-size:14px; margin-left:20px;}
+}
+
+@media screen and (max-width:667px){
+    .menu_list_content{margin:0 35px;}
+    .menu_list_content div{width:280px; height:390px;}
+    .menu_list_content div img{width:240px;}
+}
+
+@media screen and (max-width:580px){
+    .menu_list_content div{width:240px; height:360px;}
+    .menu_list_content div img{width:200px;}
+    .menu_list_content div h2{margin:20px 0 10px 20px;}
+    .menu_list_content div h2 br{display:block;}
+}
+
+@media screen and (max-width:480px){
+    .menu_list_content div{width:200px; height:310px;}
+    .menu_list_content div img{width:160px;}
+    .menu_list_content div h2{font-size:12px;}
+    .menu_list_content div h2 br{display:block;}
+    .menu_list_content div h3{font-size:12px; line-height:14px;}
+    .menu_list_content div p{font-size:12px; margin-left:20px;}
+}
+
+@media screen and (max-width:430px){
+    .menu_list_content{margin:0 20px;}
+    .menu_list_content div{width:190px; height:295px;}
+    .menu_list_content div img{width:160px; margin:15px 0 0 15px;}
+    .menu_list_content div h2{margin:15px 0 10px 15px;}
+    .menu_list_content div h3{margin:0 0 5px 15px;}
+    .menu_list_content div p{margin-left:15px;}
+}
+
+@media screen and (max-width:414px){
+    .menu_list_content div{width:180px; height:290px;}
+    .menu_list_content div img{width:150px;}
+    .menu_list_content div h2{font-size:12px;}
+    .menu_list_content div h3{font-size:12px;}
+    .menu_list_content div p{font-size:12px;}
+}
+
+@media screen and (max-width:395px){
+    .menu_list_content div{width:170px; height:280px;}
+    .menu_list_content div img{width:140px;}
+    .menu_list_content div h2{font-size:12px;}
+    .menu_list_content div h3{font-size:12px;}
+    .menu_list_content div p{font-size:12px;}
+}
+
+@media screen and (max-width:375px){
+    .menu_list_content div{width:160px; height:245px;}
+    .menu_list_content div img{width:130px; margin:15px 0 0 15px;}
+    .menu_list_content div h2{font-size:10px; line-height:12px; margin:15px 0 8px 15px;}
+    .menu_list_content div h3{font-size:10px; margin:0 0 3px 15px; line-height:12px;}
+    .menu_list_content div p{font-size:10px;}
+}
+
+@media screen and (max-width:360px){
+    .menu_list_content div{width:155px; height:240px;}
+    .menu_list_content div img{width:135px; margin:10px 0 0 10px;}
+    .menu_list_content div h2{margin:10px 0 5px 10px;}
+    .menu_list_content div h3{margin:0 0 3px 10px;}
+    .menu_list_content div p{margin-left:10px;}
+}
+
+@media screen and (max-width:320px){
+    .menu_list_content div{width:135px; height:220px;}
+    .menu_list_content div img{width:115px;}
+}
+
+/*menu_list_btn*/
+@media screen and (max-width:480px){
+    .menu_list_btn{width:80px; height:25px; font-size:12px; line-height:25px; background:#fff; border-radius:5px; border:1px solid #ededed;}
+}
+
+ /****************************/
+ /****************************/
+ /****************************/
+ /*menu_detail*/
+
+ /*buy*/
+ @media screen and (max-width:768px){
+    .buy div{width:334px;}
+}
+
+@media screen and (max-width:667px){
+    .buy div{width:298px;}
+}
+
+@media screen and (max-width:640px){
+    .buy div{width:285px;}
+}
+
+@media screen and (max-width:580px){
+    .buy div{width:255px; height:40px; line-height:40px; font-size:14px;}
+}
+
+@media screen and (max-width:480px){
+    .buy div{width:205px;}
+}
+
+@media screen and (max-width:430px){
+    .buy div{width:195px;}
+}
+
+@media screen and (max-width:414px){
+    .buy div{width:187px;}
+}
+
+@media screen and (max-width:412px){
+    .buy div{width:186px;}
+}
+
+@media screen and (max-width:412px){
+    .buy div{width:186px;}
+}
+
+@media screen and (max-width:395px){
+    .buy div{width:177px;}
+}
+
+@media screen and (max-width:385px){
+    .buy div{width:172px; height:30px; line-height:30px; font-size:12px;}
+}
+
+@media screen and (max-width:375px){
+    .buy div{width:167px;}
+}
+
+@media screen and (max-width:360px){
+    .buy div{width:160px;}
+}
+
+@media screen and (max-width:320px){
+    .buy div{width:140px;}
+}
+
+/*detail_content*/
+/*detail_content{detail_tit}*/
+@media screen and (max-width:667px){
+    .detail_content .detail_tit > span{left:35px; font-size:20px;}
+    .detail_content .detail_tit h2{font-size:20px;}
+    .detail_content .detail_tit div{right:35px; top:1px;}
+    .detail_content .detail_tit div img{width:20px;}
+}
+
+@media screen and (max-width:430px){
+    .detail_content .detail_tit > span{left:20px;}
+    .detail_content .detail_tit div{right:20px;}
+    .detail_content .detail_tit div span img{margin-left:5px;}
+}
+
+@media screen and (max-width:360px){
+    .detail_content .detail_tit > span{font-size:18px;}
+    .detail_content .detail_tit h2{font-size:18px; line-height:30px;}
+    .detail_content .detail_tit div{ top:0px;}
+    .detail_content .detail_tit div img{width:18px;}
+}
+
+/*detail_content{detail_txt}*/
+@media screen and (max-width:667px){
+    .detail_content .detail_txt{margin:20px 0 0 35px;}
+}
+
+@media screen and (max-width:580px){
+    .detail_content .detail_txt h2{font-size:20px;}
+    .detail_content .detail_txt h3{font-size:16px; margin-bottom:7px;}
+    .detail_content .detail_txt p{font-size:16px; margin-bottom:7px;}
+    .detail_content .detail_txt ul li{font-size:14px;}
+    .detail_content .detail_txt ul li img{width:14px;}
+}
+
+@media screen and (max-width:430px){
+    .detail_content .detail_txt{margin:20px 0 0 20px;}
+}
+
+@media screen and (max-width:360px){
+    .detail_content .detail_txt{margin:15px 0 0 20px;}
+    .detail_content .detail_txt h2{font-size:18px;}
+    .detail_content .detail_txt h3{font-size:14px;}
+    .detail_content .detail_txt p{font-size:14px;}
+    .detail_content .detail_txt ul li{font-size:12px;}
+    .detail_content .detail_txt ul li img{width:12px;}
+}
+
+/*detail_content{detail_menu}*/
+@media screen and (max-width:580px){
+    .detail_content .detail_menu ul li{font-size:13px;}
+}
+
+@media screen and (max-width:480px){
+    .detail_content .detail_menu ul li{font-size:12px; height:30px; line-height:30px;}
+}
+
+@media screen and (max-width:360px){
+    .detail_content .detail_menu ul li{font-size:11px;}
+}
+
+@media screen and (max-width:320px){
+    .detail_content .detail_menu ul li{font-size:10px;}
+}
+
+/*other_menu*/
+@media screen and (max-width:667px){
+    .other_menu > h2{font-size:20px;}
+    .other_menu .slick-list{margin:0 -50px;}
+    .other_menu .slick-slide{margin:0 50px;}
+}
+
+@media screen and (max-width:580px){
+    .other_menu .other_slide .items div{width:180px !important; height:275px;}
+    .other_menu .other_slide .items div span{display:block; padding-top:15px; margin:0px 0 10px 15px;}
+    .other_menu .other_slide .items div span img{width:150px;}
+    .other_menu .other_slide .items div h2{font-size:12px; margin-left:15px;}
+    .other_menu .other_slide .items div h3{font-size:10px; margin-left:15px;}
+    .other_menu .other_slide .items div p{font-size:12px; margin-left:15px;}
+    .other_menu .other_slide .items div ul{margin-left:15px;}
+    .other_menu .other_slide .items div ul li{font-size:10px; margin-right:5px;}
+    .other_menu .other_slide .items div ul li img{width:10px;}
+}
+
+@media screen and (max-width:480px){
+    .other_menu .slick-list{margin:0 -95px;}
+    .other_menu .slick-slide{margin:0 95px;}
+}
+
+@media screen and (max-width:430px){
+    .other_menu .slick-list{margin:0 -90px;}
+    .other_menu .slick-slide{margin:0 90px;}
+
+    .other_menu .other_slide .items div{width:170px !important; height:270px;}
+    .other_menu .other_slide .items div span img{width:140px;}
+}
+
+@media screen and (max-width:395px){
+    .other_menu .slick-list{margin:0 -80px;}
+    .other_menu .slick-slide{margin:0 80px;}
+
+    .other_menu .other_slide .items div{width:150px !important; height:250px;}
+    .other_menu .other_slide .items div span img{width:120px;}
+}
+
+@media screen and (max-width:360px){
+    .other_menu .slick-list{margin:0 -80px;}
+    .other_menu .slick-slide{margin:0 80px;}
+
+    .other_menu .other_slide .items div{width:140px !important; height:240px;}
+    .other_menu .other_slide .items div span img{width:120px;}
+
+    .other_menu .other_slide .items div span{display:block; padding-top:10px; margin:0px 0 10px 10px;}
+    .other_menu .other_slide .items div h2{font-size:12px; margin-left:10px;}
+    .other_menu .other_slide .items div h3{font-size:10px; margin-left:10px;}
+    .other_menu .other_slide .items div p{font-size:12px; margin-left:10px;}
+    .other_menu .other_slide .items div ul{margin-left:10px;}
+    .other_menu .other_slide .items div ul li{font-size:10px; margin-right:5px;}
+    .other_menu .other_slide .items div ul li img{width:10px;}
+}
+
+@media screen and (max-width:320px){
+    .other_menu .slick-list{margin:0 -70px;}
+    .other_menu .slick-slide{margin:0 70px;}
+
+    .other_menu .other_slide .items div h3 > br{display:none;}
+    .other_menu .other_slide .items div h3 b{display:block;}
+    .other_menu .other_slide .items div{width:130px !important; height:230px;}
+    .other_menu .other_slide .items div span img{width:110px;}
+}
+
+@media screen and (max-width:360px){
+    .other_menu > h2{font-size:18px;}
+}
+
+/*detail_review*/
+@media screen and (max-width:667px){
+    .detail_review > h2{font-size:20px;}
+}
+
+@media screen and (max-width:667px){
+    .detail_review > h2{font-size:20px;}
+}
