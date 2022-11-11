@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../../css/nav.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="site-container">
+        <div class="site-pusher">
+          <header class="header" > 
+              <a href="#" class="header_search" id="header_search"><img src="../../image/main/search.png" alt="search"></a>
+              <a href="#" class="header__icon" id="header__icon"></a> <a href="#" class="header__logo"><img src="../../image/logo.png" alt="logo"></a>
+              <nav class="menu"> 
+                 <div id='cssmenu'>
+                     <div class="login">
+                         <p onclick="">LOGIN &nbsp;&nbsp;<span>></span></p>
+                         <p class="menu_out"><Img src="../../image/main/menu_out.png" alt="out"></p>
+                      </div>
+                      <div class="icons">
+                          <div>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon1.png" alt="menu_icon1"></li>
+                                  <li>주문조회</li>
+                              </ul>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon2.png" alt="menu_icon1"></li>
+                                  <li>장바구니</li>
+                              </ul>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon3.png" alt="menu_icon1"></li>
+                                  <li>마이페이지</li>
+                              </ul>
+                          </div>
+                          <div>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon4.png" alt="menu_icon1"></li>
+                                  <li>고객센터</li>
+                              </ul>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon5.png" alt="menu_icon1"></li>
+                                  <li>멤버쉽 혜택</li>
+                              </ul>
+                              <ul>
+                                  <li><img src="../../image/main/menu_icon6.png" alt="menu_icon1"></li>
+                                  <li>매장정보</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <ul>
+                          <li class='has-sub'><a href='#'>SHOP</a>
+                              <ul>
+                              <li><a href="#">온라인단독</a></li>
+                              <li><a href="#">신상품</a></li>
+                              <li><a href="#">베스트</a></li>
+                              <li><a href="#">메이크업</a></li>
+                              <li><a href="#">베이스</a></li>
+                              <li><a href="#">스킨케어</a></li>
+                              <li><a href="#">클렌징</a></li>
+                              <li><a href="#">헤어/바디</a></li>
+                              <li><a href="#">툴</a></li>
+                              </ul>
+                          </li>
+                         <li class='has-sub'><a href='#'>BRAND LINE</a>
+                            <ul>
+                              <li><a href="#">ART CLASS</a></li>
+                              <li><a href="#">PINK SALT</a></li>
+                              <li><a href="#">DINOPLATZ</a></li>
+                              <li><a href="#">CAVIAR LIME</a></li>
+                              <li><a href="#">RULES OF SKIN</a></li>
+                              <li><a href="#">GLAM ROCK</a></li>
+                              <li><a href="#">COCONUT</a></li>
+                              <li><a href="#">CHECK</a></li>
+                              <li><a href="#">PUMPKIN</a></li>
+                              <li><a href="#">ARTIFY</a></li>
+                              <li><a href="#">MOROCCO</a></li>
+                              <li><a href="#">EGG</a></li>
+                            </ul>
+                         </li>
+                         <li><a href='#'>TOO COOL FOR SCHOOL</a></li>
+                         <li><a href='#'>EVENT</a></li>
+                         <li class='has-sub'><a href='#'>SERVICE</a>
+                          <ul>
+                              <li><a href="#">NOTICE</a></li>
+                              <li><a href="#">1:1 상담</a></li>
+                              <li><a href="#">MEMBERSHIP</a></li>
+                              <li><a href="#">STORE INFO</a></li>
+                              <li><a href="#">FRANCHISE INFO</a></li>
+                          </ul>
+                          </li>
+                          <li class='has-sub'><a href='#'>COMMUNITY</a>
+                          <ul>
+                              <li><a href="#">PRESS</a></li>
+                              <li><a href="#">MAGAZINE</a></li>
+                              <li><a href="#">VIDEO</a></li>
+                          </ul>
+                          </li>
+                      </ul>
+                  </div> 
+              </nav>
+          </header>
+      
+        <div class="site-content">
+            <div class="container">
+                <div id="menu_detail">
+                    <!--buy-->
+                    <div class="buy">
+                        <div>CART</div>
+                        <div>BUY NOW </div>
+                    </div>
+                    <!--//buy-->
+                    <!--detail_content-->
+                    <div class="detail_content">
+                        <div class="detail_tit">
+                            <span class="material-icons" onclick="">arrow_back_ios</span>
+                            <h2>바이로댕 마스터 키트</h2>
+                            <div>
+                                <span onclick=""><img src="../../image/menu_detail/detail_icon1.png" alt="detail_icon1"></span>
+                                <span onclick=""><img src="../../image/menu_detail/detail_icon2.png" alt="detail_icon2"></span>
+                            </div>
+                        </div>
+                        <div class="detail_img inner">
+                            <img src="../../image/menu_detail/detail_img.jpg" alt="detail_img.jpg">
+                        </div>
+                        <div class="detail_txt">
+                            <h2>바이로댕 마스터 키트</h2>
+                            <h3>쉐딩 + 블러셔 + 세팅팩트 KIT</h3>
+                            <p>₩ 22,400</p>
+                            <ul>
+                                <li><img src="../../image/menu/like.png" alt="like"></li>
+                                <li>16,541</li>
+                                <li><img src="../../image/menu/comment.png" alt="comment"></li>
+                                <li>12,538</li>
+                            </ul>
+                        </div>
+                        <div class="detail_menu inner">
+                            <ul>
+                                <li onclick="" class="selected">상세정보</li> 
+                                <li onclick="">관련상품</li>
+                                <li onclick="">상품리뷰</li>
+                                <li onclick="">상품정보</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--//detail_content-->
+                    <!--product_information-->
+                    <div class="product_information">
+                        <img src="../../image/menu_detail/product_information.jpg" alt="product_information">
+                    </div>
+                    <!--//product_information-->
+                    <!--other_menu-->
+                    <div class="other_menu inner">
+                        <h2>관련상품</h2>
+                        <div class="other_slide">
+                            <div class="items">
+                                <div>
+                                    <span><img src="../../image/menu_detail/other1.jpg" alt="other1"></span>
+                                    <h2>바이 로댕 쉐딩</h2>
+                                    <h3>★천만 쉐딩★ 진짜 내 <b><br></b>피부같은<br>
+                                        자연스러운 음영감</h3>
+                                    <p>₩ 16,000</p>
+                                    <ul>
+                                        <li><img src="../../image/menu/like.png" alt="like"></li>
+                                        <li>16,541</li>
+                                        <li><img src="../../image/menu/comment.png" alt="comment"></li>
+                                        <li>12,538</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div>
+                                    <span><img src="../../image/menu_detail/other2.jpg" alt="other2"></span>
+                                    <h2>1+1 프로타주 펜슬</h2>
+                                    <h3>공기처럼 가벼운 <br>파스텔 섀도우</h3>
+                                    <p>₩ 24,000</p>
+                                    <ul>
+                                        <li><img src="../../image/menu/like.png" alt="like"></li>
+                                        <li>16,541</li>
+                                        <li><img src="../../image/menu/comment.png" alt="comment"></li>
+                                        <li>12,538</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div>
+                                    <span><img src="../../image/menu_detail/other3.jpg" alt="other3"></span>
+                                    <h2>바이 로댕 콜렉터즈</h2>
+                                    <h3>쿨톤 데일리팔레트,<b><br></b>NEW #4호<br>
+                                        뮤트핑크 출시</h3>
+                                    <p>₩ 16,000</p>
+                                    <ul>
+                                        <li><img src="../../image/menu/like.png" alt="like"></li>
+                                        <li>16,541</li>
+                                        <li><img src="../../image/menu/comment.png" alt="comment"></li>
+                                        <li>12,538</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div>
+                                    <span><img src="../../image/menu_detail/other2.jpg" alt="other2"></span>
+                                    <h2>1+1 프로타주 펜슬</h2>
+                                    <h3>공기처럼 가벼운 <br>파스텔 섀도우</h3>
+                                    <p>₩ 24,000</p>
+                                    <ul>
+                                        <li><img src="../../image/menu/like.png" alt="like"></li>
+                                        <li>16,541</li>
+                                        <li><img src="../../image/menu/comment.png" alt="comment"></li>
+                                        <li>12,538</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//other_menu-->
+                    <!--detail_review-->
+                    <div class="detail_review inner">
+                        <h2>상품리뷰</h2>
+                        <div>
+                            <h2>★★★★★</h2>
+                            <h3>네이******</h3>
+                            <ul>
+                                <li>미니미니 한게 너무 귀엽고 구성이 맘에 들어요..
+                                <a href="#">&nbsp 더보기&nbsp<span>></span></a></li>
+                            </ul>
+                            <p>2022-04-07</p>
+                        </div>
+                        
+                        <div>
+                            <h2>★★★★★</h2>
+                            <h3>rkdd******</h3>
+                            <ul>
+                                <li>아주 귀여워요 ㅋㅋㅋ 저거 브러쉬도 작은데 제..
+                                <a href="#">&nbsp 더보기&nbsp<span>></span></a></li>
+                            </ul>
+                            <img src="../../image/menu_detail/detail_review1.jpg" alt="detail_review">
+                            <p>2022-04-05</p>
+                        </div>
+
+                        <div>
+                            <h2>★★★★</h2>
+                            <h3>wnxh******</h3>
+                            <ul>
+                                <li>빠르게 잘 받았습니다</li>
+                            </ul>
+                            <p>2022-04-04</p>
+                        </div>
+
+                        <button>더보기</button>
+                    </div>
+                    <!--//detail_review-->
+                    <!--detail_information-->
+                    <div class="detail_information inner">
+                        <ul>
+                            <li class="information">원산지 / 제조사 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+                            <li class="information">배송 / 결제정보 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+                            <li class="information">교환 / 환불문의 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+
+                            <li class="information">사용기한 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+
+                            <li class="information">사용시 주의사항 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+
+                            <li class="information">품질 보증기준 <span class="material-icons">expand_more</span></li>
+                            <p class="information_txt">가나다라</p>
+
+                        </ul>
+                    </div>
+                    <!--//detail_information-->
+                    <!--footer-->
+                    <div class="footer">
+                        <span><img src="../../image/footer_logo.png" alt="footer_logo"></span>
+                        <h2>customer service<br>
+                        1566-3128</h2>
+                        <p>운영시간 10:00 ~ 17:00<br>
+                        점심시간 12:00 ~ 13:00</p>
+                        <p>주말 및 공휴일 휴무<br>
+                            E-Mail : toocoolgirl@toocool.co.kr</p>
+                        <p>(주)투쿨포스쿨
+                            본사 : 경기도 과천시 찬우물로 15 ㅣ Fax 02-2139-1148<br>
+                            서울사무소 : 서울특별시 강남구 강남대로 624 ICT타워 4층<br>
+                            물류센터 : 경기도 군포시 부곡동 451번지 군포복합물류단지 N동 서관 5층<br>
+                            대표이사 : 심진호 ㅣ 개인정보보호책임자 : 손경수<br>
+                            사업자등록번호 : 201-86-14950 사업자정보확인<br>
+                            통신판매업 신고번호 : 2015-경기과천-0067<br>
+                            For overseas business inquiries : oversea@toocool.co.kr<br>
+                            COPYRIGHT ⓒ2014 TOO COOL FOR SCHOOL. ALL RIGHTS RESERVED. DESIGN BY DesignWib.</p>
+                    </div>
+                    <!--//footer-->
+                </div>
+            </div>
+        </div>
+      
+          <div class="site-cache" id="site-cache"></div>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+      <script src="../../js/script.js"></script>
+      <script>
+        //!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!
+        //$(".information_txt:not(:first)").css("display","none");
+        $(".information_txt").css("display","none");
+        $(".information:first").addClass("detail_information_active");
+        $(".information .information_txt").click(function(){
+            if($("+.information_txt",this).css("display")=="none"){
+                $(".information_txt").slideUp("slow");
+                $("+.information_txt",this).slideDown("slow");
+                $(".information").removeClass("active");
+                $(this).addClass("active");
+            }
+        });
+    </script>
+
+</body>
+</html>
